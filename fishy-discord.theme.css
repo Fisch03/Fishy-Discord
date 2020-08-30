@@ -1,0 +1,361 @@
+/**
+ * @name Fishy-Discord
+ * @description A transparent and clean Discord expierience based on Sushy's "Sushy/acrylic" Theme. Expect bugs!
+ * @author Fisch03
+ * @version 0.0.1
+ * @source https://github.com/Fisch03/Fishy-Discord
+ * @authorLink http://fisch03.xyz
+ * @requires Glasscord>=0.0.5
+ */
+
+body {
+     border-radius: 250px !important;
+     overflow: hidden;
+}
+
+.platform-linux {
+     background: none !important;
+}
+
+.guilds-1SWlCJ {
+     position: fixed;
+     height: 100vh;
+     top: 0;
+}
+
+.da-private-channels {
+     width: 17.6vw;
+}
+
+.container-1D34oG {
+     position: fixed;
+     right: 0;
+     top: 0;
+     width: 75.5vw;
+     margin-left: 19.5vw;
+     background: rgba(10, 10, 10, 0.5) !important;
+     border-radius: 15px;
+     padding-top: 12px;
+}
+
+.da-sidebar {
+     top: 0;
+     height: 100vh;
+     width: 17.6vw;
+     background: rgba(10, 10, 10, 0.5);
+     margin-left: 10px;
+     border-radius: 15px !important;
+     box-shadow: 38px 20px 46px -23px rgba(0, 0, 0, 0.27);
+}
+
+.sidebar-2K8pFh {
+	position: fixed;
+}
+
+.sidebar-CFHs9e {
+     border-radius: 15px;
+     padding-right: 20px;
+	 height: 150vh;
+}
+
+.modeSelected-1zApJ_ .content-3at_AU, .modeSelected-1zApJ_:hover .content-3at_AU {
+     background-color: rgba(10, 10, 10, 0.5);
+}
+
+.content-3at_AU {
+     border-radius: 10px !important;
+}
+
+.scroller-2FKFPG {
+     margin-bottom: -25px;
+}
+
+.typing-2GQL18 {
+     top: 0;
+}
+
+.form-2fGMdU {
+     padding-top: 15px;
+}
+
+.da-chat {
+     position: fixed;
+     background: rgba(10, 10, 10, 0.5);
+     border-radius: 15px;
+     margin-left: 19.5vw;
+     top: 0;
+     width: 58vw;
+     height: 100vh;
+}
+
+.membersWrap-2h-GB4, .da-members {
+     position: fixed;
+     right: 0;
+     top: 0;
+     width: 16vw;
+     height: 100vh;
+     box-shadow: 38px 20px 46px -23px rgba(0, 0, 0, 0.27);
+}
+
+.da-members {
+     background: rgba(10, 10, 10, 0.5);
+     border-radius: 15px;
+}
+
+.membersWrap-2h-GB4 .listContent-2_qb-y {
+     margin-left: -5px;
+}
+
+.membersWrap-2h-GB4 .scroller-2FKFPG:first-child {
+     height: 100vh;
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+     justify-content: center;
+}
+
+.da-avatar, .wrapper-3t9DeA * {
+     border-radius: 15px !important;
+}
+
+.webkit-HjD9Er {
+     background: rgba(10, 10, 10, 0.5);
+     border-radius: 15px;
+     box-shadow: 38px 20px 46px -23px rgba(0, 0, 0, 0.27);
+     background-color: rgba(10, 10, 10, 0.5);
+     margin-bottom: -10px;
+     margin-top: 12.5px;
+}
+
+.title-3qD0b- *, .da-timestamp, .markup-2BOw-j, .da-sidebar * {
+     color: white !important;
+}
+
+.embedWrapper-lXpS3L {
+     background: rgba(10, 10, 10, 0.5);
+     border-radius: 5px 15px 15px 5px;
+}
+
+.da-imageWrapper {
+     border-radius: 5px !important;
+}
+
+.da-reactionInner {
+     background: rgba(10, 10, 10, 0.5);
+     border-radius: 5px;
+}
+
+.da-mentioned::before {
+     background-color: rgba(10, 10, 10, 0.5);
+     padding-right: 7.5px;
+     border-radius: 15px 15px;
+}
+
+.search-36MZv- {
+     background-color: rgba(10, 10, 10, 0.5);
+     border-radius: 5px;
+}
+
+.children-Bmpf2Q, .webkit-HjD9Er .placeholder-37qJjk, .da-members::-webkit-scrollbar {
+     display: none;
+}
+
+.buttons-3JBrkn > .grow-q77ONN.colorBrand-3pXr91.lookBlank-3eh9lL.button-38aScr.buttonWrapper-1ZmCpA:nth-of-type(1), .membersWrap-2h-GB4 .scroller-2FKFPG:first-child::-webkit-scrollbar {
+     display: none !important;
+}
+
+.contentRegionScroller-26nc1e {
+	border-radius: 15px;
+	background: rgba(10, 10, 10, 0.5);
+}
+
+:root {
+     --glasscord-win-blur: blurbehind;
+     --glasscord-win-performance-mode: true;
+     --glasscord-macos-vibrancy: fullscreen-ui;
+     --glasscord-linux-blur: true;
+     --glasscord-titlebar: windows;
+}
+
+.theme-dark {
+     --background-primary: transparent;
+     --background-primary-alt: transparent;
+     --background-secondary: transparent;
+     --background-secondary-chat: transparent;
+     --background-secondary-alt: transparent;
+     --background-tertiary: transparent;
+     --background-logo: transparent;
+     --deprecated-card-bg: transparent;
+     --deprecated-store-bg: transparent;
+     --background-attachments: transparent;
+     --background-search-bar: transparent;
+     --background-switcher: transparent;
+     --background-chatbox: transparent;
+     --background-lights-out: transparent;
+     --background-pinned: transparent;
+     --background-profile-expand: transparent;
+     --background-emoji: transparent;
+     --text-lights-out: transparent;
+     --background-titlebar: transparent;
+}
+
+.theme-dark .scrollerThemed-2oenus.themedWithTrack-q8E3vB .scroller-2FKFPG::-webkit-scrollbar-track-piece {
+     background-color: transparent;
+     border: 4px solid transparent;
+}
+
+.theme-dark .scrollerThemed-2oenus.themedWithTrack-q8E3vB .scroller-2FKFPG::-webkit-scrollbar-thumb {
+     background-color: #20222550;
+}
+
+.theme-dark .card-FDVird:before {
+     background-color: #33363c90;
+}
+
+.theme-dark .codeRedemptionRedirect-1wVR4b {
+     background-color: #2f313650;
+     border-color: #20222550;
+}
+
+.withFrame-haYltI {
+     height: 18px;
+     margin-top: 0;
+     padding-top: 4px;
+}
+
+.premiumPromo-yVfLiA {
+     background-color: var(--background-secondary-chat);
+     backdrop-filter: blur(2px);
+}
+
+.unread-3zKkbm {
+     height: 4px;
+     width: 4px;
+     margin-top: -2px;
+     border-radius: 2px 2px 2px 2px;
+}
+
+.jumpToPresentBar-9P20AM {
+     border-radius: 8px;
+     padding-bottom: 0;
+}
+
+.platform-osx .scroller-2TZvBN {
+     padding-top: 32px;
+}
+
+.platform-osx .wrapper-1Rf91z {
+     margin-top: 0;
+}
+
+.platform-osx .unreadMentionsIndicatorTop-gA6RCh {
+     top: 32px;
+}
+
+.platform-osx .button-2PWmas, .platform-osx .back-1Ess-_ {
+     -webkit-app-region: no-drag;
+}
+
+.messagesPopoutWrap-1MQ1bW {
+     background-color: var(--background-pinned);
+}
+
+.notice-2FJMB4 {
+     background-color: var(--background-secondary) !important;
+     border-radius: 0;
+     -webkit-box-shadow: none;
+     box-shadow: none;
+}
+
+.emojiPicker-3m1S-j {
+     background-color: var(--background-emoji);
+}
+
+.root-SR8cQa {
+     background-color: var(--background-profile-expand);
+}
+
+.inset-3sAvek {
+     background-color: var(--background-secondary) !important;
+}
+
+.wrapper-1Rf91z, .container-1r6BKw.themed-ANHk51 {
+     background-color: var(--background-secondary);
+}
+
+.circleIconButton-jET_ig, .childWrapper-anI2G9 {
+     background-color: var(--background-logo);
+}
+
+.searchResult-3pzFAB:after, .searchResult-3pzFAB:before {
+     background-image: none;
+}
+
+.perksModal-fSYqOq, .typeMacOS-3EmCyP {
+     background-color: transparent !important;
+}
+
+.tierBody-16Chc9 {
+     background-color: var(--background-secondary-chat) !important;
+}
+
+.perk-2WeBWW, .ctaBar-2UsjF2, .attachment-33OFj0 {
+     background-color: var(--background-attachments) !important;
+}
+
+.container-xm7Ad0:before, .container-19hC9u:before, .tabBody-3YRQ8W:before, .content-yTz4x3:before, .searchHeader-1l-wpR, .searchBar-6Kv8R2, .header-2o-2hj {
+     -webkit-box-shadow: none;
+     box-shadow: none;
+}
+
+.searchBar-6Kv8R2 .searchBarComponent-32dTOx, .searchBar-3dMhjb {
+     background-color: var(--background-search-bar);
+}
+
+.scroller-2TZvBN {
+     background: rgba(10, 10, 10, 0.5) !important;
+     border-radius: 15px 15px;
+     padding-top: 22px !important;
+     -webkit-mask: linear-gradient(#0000, #fff 32px);
+     background-color: transparent;
+}
+
+.quickswitcher-3JagVE {
+     background-color: var(--background-switcher);
+}
+
+.searchResultMessage-2VxO12.hit-NLlWXA, .wrapper-2aW0bm {
+     background-color: var(--background-primary-alt);
+}
+
+.embedFull-2tM8-- {
+     background-color: var(--background-attachments);
+}
+
+.messagesWrapper-3lZDfY {
+     margin-bottom: 8px;
+}
+
+.panels-j1Uci_, .scroller-zPkAnE, .scroller-1JbKMe, .channelName-1QajIf, .container-PNkimc, .privateChannels-1nO12o, .app-2rEoOp, .appMount-3lHmkl, .theme-dark .pageWrapper-1PgVDX, .theme-dark .container-1D34oG, .da-mentioned {
+     background-color: transparent;
+}
+
+.titleBar-AC4pGV {
+     background-color: var(--background-titlebar);
+}
+
+.uploadArea-3QgLtW {
+     background-color: var(--background-lights-out);
+}
+
+.backdrop-1wrmKB, .backdropWithLayer-3_uhz4 {
+     background-color: var(--background-lights-out) !important;
+}
+
+.downloadLink-1ywL9o {
+     color: var(--text-lights-out) !important;
+}
+
+.bg-AYqtMd {
+     -webkit-mask-image: linear-gradient(#000f, #0000) !important;
+}
