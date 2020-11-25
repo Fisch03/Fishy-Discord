@@ -1,0 +1,18 @@
+/**
+ * @name Fishy-Discord-Extensions
+ * @description Additional styling for BandagedBD Plugins and stuff
+ * @author Fisch03
+ * @version 0.0.1
+ * @source https://github.com/Fisch03/Fishy-Discord
+ * @authorLink http://fisch03.xyz
+ * @requires Glasscord>=0.0.5
+ */
+ 
+/* SpotifyControls */
+ .da-maximized > .da-inner > .da-coverWrapper > .da-cover {
+	border-radius: 15px;
+}
+
+ .da-coverWrapper, .da-cover {
+	box-shadow: 20px 20px 46px 0px rgba(0, 0, 0, 0.5);
+}
