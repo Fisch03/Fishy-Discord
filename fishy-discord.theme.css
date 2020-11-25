@@ -1,12 +1,20 @@
 /**
  * @name Fishy-Discord
- * @description A transparent and clean Discord expierience based on Sushy's "Sushy/acrylic" Theme. Expect bugs!
+ * @description A transparent and clean Discord expierience based on Sushy's "Sushy/acrylic" Theme. Expect bugs! Note: Only works with the dark Discord appearance Setting.
  * @author Fisch03
  * @version 0.0.1
  * @source https://github.com/Fisch03/Fishy-Discord
  * @authorLink http://fisch03.xyz
  * @requires Glasscord>=0.0.5
  */
+
+:root {
+     --glasscord-win-blur: blurbehind;
+     --glasscord-win-performance-mode: false;
+     --glasscord-macos-vibrancy: fullscreen-ui;
+     --glasscord-linux-blur: true;
+     --glasscord-titlebar: windows;
+}
 
 body {
      border-radius: 250px !important;
@@ -22,11 +30,11 @@ body {
 }
 
 .body-3ND3kc, .body-3iLsc4, .footer-1fjuF6 {
-	background: rgba(10, 10, 10, 0.9) !important;
+	background: rgba(10, 10, 10, 0.8) !important;
 }
 
 .da-topSectionPlaying, .da-headerPlaying {
-	background: rgba(90, 90, 200, 0.9);
+	background: rgba(90, 90, 200, 0.8);
 	box-shadow: 0px 20px 25px 3px rgba(0, 0, 0, 1);
 }
 
@@ -73,7 +81,7 @@ body {
 .sidebar-CFHs9e {
      border-radius: 15px;
      padding-right: 20px;
-	 height: 150vh;
+	 height: auto;
 }
 
 .modeSelected-1zApJ_ .content-3at_AU, .modeSelected-1zApJ_:hover .content-3at_AU {
@@ -191,14 +199,6 @@ body {
 	background: rgba(10, 10, 10, 0.5);
 }
 
-:root {
-     --glasscord-win-blur: blurbehind;
-     --glasscord-win-performance-mode: true;
-     --glasscord-macos-vibrancy: fullscreen-ui;
-     --glasscord-linux-blur: true;
-     --glasscord-titlebar: windows;
-}
-
 .theme-dark {
      --background-primary: transparent;
      --background-primary-alt: transparent;
@@ -257,9 +257,10 @@ body {
      border-radius: 2px 2px 2px 2px;
 }
 
-.jumpToPresentBar-9P20AM {
+.jumpToPresentBar-9P20AM, .da-jumpToPresentBar {
      border-radius: 8px;
      padding-bottom: 0;
+     background:rgba(10, 10, 10, 0.5) !important;
 }
 
 .platform-osx .scroller-2TZvBN {
@@ -380,4 +381,15 @@ body {
 
 .bg-AYqtMd {
      -webkit-mask-image: linear-gradient(#000f, #0000) !important;
+}
+
+/* Dialog Background */
+div[role=dialog] {
+  background: rgba(10, 10, 10, 0.8) !important;
+  border-radius: 15px;
+}
+
+/* Hide Help Button */
+.da-toolbar > .anchor-3Z-8Bb {
+  display: none;
 }
